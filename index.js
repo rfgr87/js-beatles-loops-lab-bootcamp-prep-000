@@ -13,11 +13,11 @@ function theBeatlesPlay(array1, array2){
 
 function johnLennonFacts(array1){
   var i = 0;
+  var array2 = []
   while(i < array1.length)
   {
     string = array1[i];
     string = string + "!!!"
-    var array2 = []
     array2.push(string)
     i++
   }
