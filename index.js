@@ -13,7 +13,8 @@ function theBeatlesPlay(array1, array2){
 
 function johnLennonFacts(array1){
   var i = 0;
-  var array2 = []
+  var string;
+  var array2 = [];
   while(i < array1.length)
   {
     string = array1[i];
