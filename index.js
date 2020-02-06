@@ -23,3 +23,8 @@ function johnLennonFacts(array1){
   }
   return array2
 }
+
+function iLoveTheBeatles(number){
+  var array1
+  
+}
