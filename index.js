@@ -2,10 +2,10 @@
 
 function theBeatlesPlay(array1, array2){
   var array3 = []
-  for(let i = -1; i < array1.length; i++){
+  for(let i = 0; i < array1.length; i++){
     var musician = array1[i];
     var instrument = array2[i];
-    var string = `${musician} plays ${instrument}` 
+    var string = `${musician} plays ${instrument}`; 
     array3.push(string)
   }
   return array3
